@@ -1,0 +1,79 @@
+
+body{
+    background-image: url(pictures/aquaspace.jpg);
+    color:white;
+    font-family:'Ubuntu', sans-serif;
+  
+}
+
+#container {
+    position: relative;
+}       
+div.overlay {
+    opacity: .8;
+    background-color: black;
+    position: absolute;
+    left: 0; top: 0; height: 6000; width: 100%;
+    z-index: 1;
+}
+
+.container{
+    margin: 0 auto;
+    height: 100%;
+    width: 650px;
+    padding:50px;
+    background: rgb(43, 43, 43);
+    position: relative;
+    border: 5px solid black
+}
+.staticmenu{
+    height: 800px;
+    width: 350px;
+    background: rgb(190, 0, 0);
+    border: 5px solid black;
+    border-radius: 4%;
+    position:fixed;
+    text-align: center;
+
+}
+.albumimg{
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+    border-radius: 3%;
+    }
+.batheimg{
+   height: 40%;
+   display: block;
+   margin: 0 auto;
+   border:5px solid black;
+   border-radius: 10%;   
+}
+.h1{
+    background: rgb(190, 0, 0);
+    border:5px solid black;
+    border-radius: 10%;
+    margin: 0 auto
+
+}
+
+.menuselect{
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 175px;
+    background: darkred;
+}
+
+.sc{
+    margin: 0 auto;
+    display: block;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+}
